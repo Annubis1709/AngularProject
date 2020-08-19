@@ -8,16 +8,17 @@ import { MatCardModule } from '@angular/material/card';
 import { MatButtonModule } from '@angular/material/button';
 import { FlexLayoutModule } from '@angular/flex-layout';  
 
-//import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
 import 'hammerjs';
 import { MenuComponent } from './menu/menu.component';
+import { DishdetailComponent } from './dishdetail/dishdetail.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    MenuComponent
+    MenuComponent,
+    DishdetailComponent
   ],
   imports: [
     BrowserModule,
@@ -28,8 +29,7 @@ import { MenuComponent } from './menu/menu.component';
     MatGridListModule,
     MatCardModule,
     MatButtonModule
-
-    //AppRoutingModule
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
